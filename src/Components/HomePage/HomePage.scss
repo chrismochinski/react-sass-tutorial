@@ -1,0 +1,25 @@
+@import '../Styles/Variables.scss';
+
+
+
+.homePage {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    h2 {
+        color: #000000;
+        font-family: $mainFont;
+
+    }
+
+    button {
+        @include buttonStyle(#c70c8c, 30px);
+    }
+}
+
+button {
+    @include buttonStyle(green, 6rem);
+
+}
+

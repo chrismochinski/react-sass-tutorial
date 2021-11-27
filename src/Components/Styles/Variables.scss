@@ -1,0 +1,29 @@
+//----------------------------//
+//--------GLOBAL STUFF--------//
+//----------------------------//
+
+$blackColor: #000000;
+$linkColor: #000000;
+$linkHoverColor: #075407;
+$navBackgroundColor: #add8e6;
+$buttonBackgroundColor: #a0159c;
+
+//-------------------------//
+//--------PAGE BODY--------//
+//-------------------------//
+
+$mainFont: 'Balsamiq Sans', cursive;
+$fatFont: 'Anton', sans-serif;
+
+
+@mixin buttonStyle($color, $font-size) {
+    background-color: $color;
+    color: white;
+    font-weight: bold;
+    font-size: $font-size;
+    font-family: $fatFont;
+    text-transform: uppercase;
+    border-radius: 10px;
+    cursor: pointer;
+    margin: 10px;
+}
