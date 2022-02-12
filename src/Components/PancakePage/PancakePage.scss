@@ -18,6 +18,6 @@
     }
 
     button {
-        @include buttonStyle(#c70c8c, 30px);
+        @include buttonStyle(#11a8aa, clamp(3ch, 4vw, 12ch));
     }
 }
