@@ -1,0 +1,23 @@
+@import '../Styles/Variables.scss';
+
+.pancakeContent {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+
+
+    h1 {
+        font-family: $mainFont;
+        font-size: 4rem;
+        margin-top: 30vw;
+
+
+    }
+
+    button {
+        @include buttonStyle(#c70c8c, 30px);
+    }
+}

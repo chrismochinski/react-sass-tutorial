@@ -5,6 +5,7 @@ import HomePage from "../HomePage/HomePage";
 import InfoPage from "../InfoPage/InfoPage";
 import ContactPage from "../ContactPage/ContactPage";
 import '../Styles/NavBar.scss';
+import PancakePage from "../PancakePage/PancakePage";
 
 function App() {
   return (
@@ -21,6 +22,8 @@ function App() {
           <Route path="/info" element={<InfoPage />} />
 
           <Route path="/contact" element={<ContactPage />} />
+
+          <Route path="/pancakes" element={<PancakePage />} />
         </Routes>
       </Router>
     </div>
